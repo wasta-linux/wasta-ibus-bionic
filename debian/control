@@ -1,0 +1,13 @@
+Source: wasta-ibus-bionic
+Section: utils
+Priority: extra
+Maintainer: Rik Shaw <rikshaw76@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+Homepage: https://github.com/wasta-linux/wasta-ibus-bionic
+
+Package: wasta-ibus-bionic
+Architecture: all
+Depends: ibus, xmlstarlet, ${shlibs:Depends}, ${misc:Depends}
+Description: IBus Keyboard Integration
+ IBus Keyboard Integration for Wasta-Linux
