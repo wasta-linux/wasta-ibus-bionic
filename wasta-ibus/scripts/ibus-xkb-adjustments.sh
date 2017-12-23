@@ -115,7 +115,7 @@ xmlstarlet ed --inplace -s /component/engines -t elem -n engineTMP \
 # Finished
 # ------------------------------------------------------------------------------
 echo
-echo "*** Script Exit: app-adjustments.sh"
+echo "*** Script Exit: ibus-xkb-adjustments.sh"
 echo
 
 exit 0

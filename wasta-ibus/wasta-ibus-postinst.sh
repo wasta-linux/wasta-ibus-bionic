@@ -45,6 +45,11 @@ echo
 bash $DIR/scripts/ibus-xkb-adjustments.sh
 
 # ------------------------------------------------------------------------------
+# ibus: set as system-wide default input method
+# ------------------------------------------------------------------------------
+im-config -n ibus
+
+# ------------------------------------------------------------------------------
 # Dconf / Gsettings Default Value adjustments
 # ------------------------------------------------------------------------------
 # Values in /usr/share/glib-2.0/schemas/z_11_wasta-multidesktop.gschema.override
