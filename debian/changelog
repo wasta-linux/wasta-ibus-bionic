@@ -1,3 +1,9 @@
+wasta-ibus-bionic (1.0.0) bionic; urgency=medium
+
+  * ibus-xkb-adjustments: adding xkb:us:talt-intl:eng for Mozambique
+
+ -- Rik Shaw <rikshaw76@gmail.com>  Fri, 13 Apr 2018 11:13:05 +0300
+
 wasta-ibus-bionic (0.1.0) bionic; urgency=medium
 
   * initial release
