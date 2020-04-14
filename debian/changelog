@@ -1,3 +1,9 @@
+wasta-ibus-bionic (1.1.1) bionic; urgency=medium
+
+  * ibus-xkb-adjustments: stop and restart ibus safely
+
+ -- Rik Shaw <rikshaw76@gmail.com>  Tue, 14 Apr 2020 14:00:33 -0500
+
 wasta-ibus-bionic (1.1.0) bionic; urgency=medium
 
   * ibus-xkb-adjustments: adding xkb:kh::kh for Khmer
