@@ -1,3 +1,10 @@
+wasta-ibus-bionic (1.1.2) bionic; urgency=medium
+
+  * ibus-xkb-adjustments: wrapping ibus stop and start with sleep
+    for protection against race conditions
+
+ -- Rik Shaw <rikshaw76@gmail.com>  Tue, 14 Apr 2020 20:31:40 -0500
+
 wasta-ibus-bionic (1.1.1) bionic; urgency=medium
 
   * ibus-xkb-adjustments: stop and restart ibus safely

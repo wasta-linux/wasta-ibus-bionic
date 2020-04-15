@@ -42,8 +42,10 @@ PIDOF_IBUS=$(pidof ibus-daemon  2>&1 || true;)
 
 if [ "$PIDOF_IBUS" ];
 then
+    sleep 1
     # stop ibus if it is running
     killall ibus-daemon
+    sleep 1
 fi
 
 # ------------------------------------------------------------------------------
@@ -170,7 +172,9 @@ xmlstarlet ed --inplace -s /component/engines -t elem -n engineTMP \
 if [ "$PIDOF_IBUS" ];
 then
     # restart ibus if it was previously running
+    sleep 1
     ibus-daemon -xrd
+    sleep 1
 fi
 
 # ------------------------------------------------------------------------------
